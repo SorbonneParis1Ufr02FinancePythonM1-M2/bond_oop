@@ -1,0 +1,122 @@
+[
+  {
+    "code": "US1234567890",
+    "rate": 0.12,
+    "currency": "USD",
+    "value": 150
+  },
+  {
+    "code": "US9876543210",
+    "rate": 0.08,
+    "currency": "EUR",
+    "value": 999
+  },
+  {
+    "code": "GB1029384756",
+    "rate": 0.15,
+    "currency": "GBP",
+    "value": 1200
+  },
+  {
+    "code": "DE5647382910",
+    "rate": 0.05,
+    "currency": "JPY",
+    "value": 50
+  },
+  {
+    "code": "FR1234567890",
+    "rate": 0.10,
+    "currency": "EUR",
+    "value": 250
+  },
+  {
+    "code": "IT1029384756",
+    "rate": 0.08,
+    "currency": "CHF",
+    "value": 700
+  },
+  {
+    "code": "JP5647382910",
+    "rate": 0.06,
+    "currency": "JPY",
+    "value": 40
+  },
+  {
+    "code": "IN1234567890",
+    "rate": 0.13,
+    "currency": "INR",
+    "value": 500
+  },
+  {
+    "code": "CN9876543210",
+    "rate": 0.09,
+    "currency": "CNY",
+    "value": 250
+  },
+  {
+    "code": "AU1029384756",
+    "rate": 0.20,
+    "currency": "AUD",
+    "value": 1500
+  },
+  {
+    "code": "CA5647382910",
+    "rate": 0.07,
+    "currency": "CAD",
+    "value": 1200
+  },
+  {
+    "code": "ES1234567890",
+    "rate": 0.10,
+    "currency": "EUR",
+    "value": 150
+  },
+  {
+    "code": "BR9876543210",
+    "rate": 0.12,
+    "currency": "BRL",
+    "value": 450
+  },
+  {
+    "code": "MX1029384756",
+    "rate": 0.03,
+    "currency": "MXN",
+    "value": 30
+  },
+  {
+    "code": "RU5647382910",
+    "rate": 0.04,
+    "currency": "RUB",
+    "value": 25
+  },
+  {
+    "code": "KR1234567890",
+    "rate": 0.08,
+    "currency": "KRW",
+    "value": 120
+  },
+  {
+    "code": "ZA9876543210",
+    "rate": 0.07,
+    "currency": "ZAR",
+    "value": 100
+  },
+  {
+    "code": "NG1029384756",
+    "rate": 0.05,
+    "currency": "NGN",
+    "value": 80
+  },
+  {
+    "code": "SG5647382910",
+    "rate": 0.10,
+    "currency": "SGD",
+    "value": 200
+  },
+  {
+    "code": "HK1234567890",
+    "rate": 0.09,
+    "currency": "HKD",
+    "value": 120
+  }
+]
