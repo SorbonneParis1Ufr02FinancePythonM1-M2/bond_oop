@@ -1,0 +1,25 @@
+folders:
+  input_folder: input
+  output_folder: output
+
+files:
+  input_file: data.json
+  output_json: results.json
+  output_csv: results.csv
+  output_excel: results.xlsx
+
+bonds_fields:
+  isin: code
+  rate: rate
+  currency: currency
+  face_value: value
+  coupon: coupon
+  description: description
+
+output_fields:
+  ISIN: code
+  rate: Rate
+  currency: Currency
+  face_value: Nominal value
+  coupon: Coupon
+  description: Description

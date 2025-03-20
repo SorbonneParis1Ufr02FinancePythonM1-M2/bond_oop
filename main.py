@@ -5,11 +5,12 @@ from model import add_bonds_properties
 
 def main():
     print("begin program")
-    bonds = repo.get_data()
-    bonds_results = add_bonds_properties(bonds)
-    view.to_json(bonds_results)
-    view.to_csv(bonds_results)
-    view.to_excel(bonds_results)
+    config = repo.get_config()
+    bonds = repo.get_data(config)
+    bonds_results = add_bonds_properties(bonds, config)
+    view.to_json(bonds_results, config)
+    view.to_csv(bonds_results, config)
+    view.to_excel(bonds_results, config)
     print("end program")
 
 

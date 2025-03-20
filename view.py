@@ -6,9 +6,9 @@ from helpers.helpers_csv import dict_to_csv
 from helpers.helpers_serialize import dict_to_serialized_file
 
 
-def to_json(data):
-    output_folder = "output"
-    file = "results.json"
+def to_json(data, config):
+    output_folder = config["folders"]["output_folder"]
+    file = config["files"]["output_json"]
 
     output_dir_path = os.path.join(os.getcwd(), output_folder)
     os.makedirs(output_dir_path, exist_ok=True)
@@ -17,9 +17,9 @@ def to_json(data):
     dict_to_serialized_file(data, file_full_path)
 
 
-def to_csv(data):
-    output_folder = "output"
-    file = "results.csv"
+def to_csv(data, config):
+    output_folder = config["folders"]["output_folder"]
+    file = config["files"]["output_csv"]
 
     output_dir_path = os.path.join(os.getcwd(), output_folder)
     os.makedirs(output_dir_path, exist_ok=True)
@@ -28,9 +28,9 @@ def to_csv(data):
     dict_to_csv(data, file_full_path)
 
 
-def to_excel(data):
-    output_folder = "output"
-    file = "results.xlsx"
+def to_excel(data, config):
+    output_folder = config["folders"]["output_folder"]
+    file = config["files"]["output_excel"]
 
     output_dir_path = os.path.join(os.getcwd(), output_folder)
     os.makedirs(output_dir_path, exist_ok=True)
