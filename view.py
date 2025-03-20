@@ -6,6 +6,13 @@ from helpers.helpers_csv import dict_to_csv
 from helpers.helpers_serialize import dict_to_serialized_file
 
 
+def to_print(data, config):
+    for k, b in data.items():
+        print(b)
+        print(b.coupon_amount())
+        print(b.description())
+
+
 def to_json(data, config):
     output_folder = config["folders"]["output_folder"]
     file = config["files"]["output_json"]

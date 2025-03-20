@@ -4,7 +4,6 @@ class Bond:
     """
 
     def __init__(self):
-        self.bond_name = None
         self.isin = None
         self.rate = 0
         self.currency = None
@@ -26,6 +25,11 @@ class Bond:
             return f"{self.isin}_{self.currency}"
         return f"{self.isin}_{self.currency}_{"{:.2%}".format(self.rate)}"
 
+    def __repr__(self) -> str:
+        return (f"Bond(isin={self.isin!r}, "
+                f"rate={self.rate!r}, currency={self.currency!r}, "
+                f"face_value={self.face_value!r})")
+
 
 if __name__ == "__main__":
     bond = Bond()
@@ -42,3 +46,4 @@ if __name__ == "__main__":
     print(bond.description())
     assert bond.coupon_amount() == 4000.0
     assert bond.description() == "FR15_EUR_4.00%"
+    print(bond)

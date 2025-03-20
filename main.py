@@ -7,10 +7,11 @@ def main():
     print("begin program")
     config = repo.get_config()
     bonds = repo.get_data(config)
-    bonds_results = add_bonds_properties(bonds, config)
-    view.to_json(bonds_results, config)
-    view.to_csv(bonds_results, config)
-    view.to_excel(bonds_results, config)
+    # bonds_results = add_bonds_properties(bonds, config)
+    view.to_print(bonds, config)
+    # view.to_json(bonds, config)
+    # view.to_csv(bonds, config)
+    # view.to_excel(bonds, config)
     print("end program")
 
 
